@@ -1,0 +1,69 @@
+/* page.module.css */
+.pageContainer {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #db5e5e;
+  }
+  
+  .pageTitle {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    border: 1px solid #ba2a2a;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333; 
+    background-color: #fff; 
+  }
+  
+  
+  .submitButton {
+    background-color: #4b729c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #003d7a;
+  }
+  
+  .error {
+    color: #d32f2f;
+    text-align: center;
+  }
+  
+  .countryInfo {
+    text-align: left;
+    padding: 15px;
+    border-top: 1px solid #7cc12d;
+  }
+  
+  .countryInfo p {
+    margin: 5px 0;
+  }
+  
+  .loadingMessage {
+    text-align: center;
+    font-style: italic;
+  }
+  
